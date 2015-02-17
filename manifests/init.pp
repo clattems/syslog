@@ -11,5 +11,6 @@ source => "puppet:///modules/rsyslog/rsyslog.conf"
 }
 service { 'rsyslog':
     ensure => 'running',
+    enable => true,
 }
 }
